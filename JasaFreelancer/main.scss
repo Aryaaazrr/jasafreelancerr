@@ -1,0 +1,171 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700;800&display=swap');
+
+
+// variables
+$thirdColor : #1d4bb6;
+$secondaryColor : #5e89ce;
+$primaryColor : #292B6B;
+$teksColor : white;
+$TexsNavbarColor : #103997;
+
+// Styles
+body {
+    background: linear-gradient($primaryColor, $secondaryColor, $thirdColor, $primaryColor);
+    font-family: 'Montserrat', sans-serif;
+}
+
+// Navigation / nav
+    .custom-nav{
+        height: 60px;
+        .custom-nav, img {
+            margin-left: 50px;
+        }
+        // .custom-nav, img:hover {
+        //     width: 155px;
+        //     height: 75px;
+        // }
+        #navbarNav {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        color: $TexsNavbarColor;
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        margin-right: 50px;
+                        position: relative;
+                        text-decoration: none;
+                    }
+                    .nav-link::after {
+                        content: '';
+                        position: absolute;
+                        background-color: $TexsNavbarColor;
+                        height: 2px;
+                        width: 0;
+                        left: 0;
+                        bottom: 0px;
+                        transition: 0.3s;
+                    }
+                    .nav-link:hover {
+                        color: $TexsNavbarColor;
+                    }
+                    .nav-link:hover::after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+
+// Header
+.header {
+    min-height: 700px;
+
+    img {
+        margin-top: 31px;
+        margin-right: 50px;
+    }
+}
+
+.jombotron {
+    margin-top: 100px;
+    .containterr, h1, p, button {
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+
+    .containerr, h1.jasa {
+        margin-top: 10px;
+    }
+    
+    .containterr, h1 {
+        margin-bottom: -2px;
+        margin-top: -5px;
+    }
+
+    .containterr, p {
+        margin-top: 15px;
+    }
+
+    .containterr, button {
+        margin-top: 30px;
+    }
+
+    button:hover {
+        box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff, 0 0 200px #ffffff;
+    }
+}
+
+// About 
+.about {
+    min-height: 700px;
+    padding-top: 70px;
+    .about, h3 {
+        font-weight: 800;
+    }
+    .about, p {
+        font-weight: 400;
+    }
+    .about, h3, hr, p {
+        color: $teksColor;
+    }
+    .fotoku {
+        height: 250px;
+        width: 100px;
+        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    }
+    .about, img:hover {
+        height: 405px;
+        width: 355px;
+    }
+    .about, h4 {
+        color: $teksColor;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    .owner {
+        margin-top: -5px;
+    }
+}
+
+// portofolio
+.portofolio {
+    min-height: 700px;
+    padding-top: 70px;
+    .portofolio, h3, hr {
+        color: $teksColor;
+        font-weight: 800;
+    }
+}
+
+// contact
+.contact {
+    min-height: 700px;
+    padding-top: 70px;
+    .contact, h3, hr {
+        color: $teksColor;
+        font-weight: 800;
+    }
+    #button:hover {
+        box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff, 0 0 200px #ffffff;
+    }
+    .contact, label {
+        color: $teksColor;
+    }
+    .form-label-pesan {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+// footer
+.footer {
+    margin-top: 10px;
+    height: 40px;
+    color: $teksColor;
+    font-weight: bold;
+    p {
+        padding: 10px;
+    }
+}

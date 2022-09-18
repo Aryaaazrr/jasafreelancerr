@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700;800&display=swap");
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#292B6B), color-stop(#5e89ce), color-stop(#1d4bb6), to(#292B6B));
+  background: linear-gradient(#292B6B, #5e89ce, #1d4bb6, #292B6B);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.custom-nav {
+  height: 60px;
+}
+
+.custom-nav .custom-nav, .custom-nav img {
+  margin-left: 50px;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  color: #103997;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 50px;
+  position: relative;
+  text-decoration: none;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link::after {
+  content: '';
+  position: absolute;
+  background-color: #103997;
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: 0px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #103997;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover::after {
+  width: 100%;
+}
+
+.header {
+  min-height: 700px;
+}
+
+.header img {
+  margin-top: 31px;
+  margin-right: 50px;
+}
+
+.jombotron {
+  margin-top: 100px;
+}
+
+.jombotron .containterr, .jombotron h1, .jombotron p, .jombotron button {
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+.jombotron .containerr, .jombotron h1.jasa {
+  margin-top: 10px;
+}
+
+.jombotron .containterr, .jombotron h1 {
+  margin-bottom: -2px;
+  margin-top: -5px;
+}
+
+.jombotron .containterr, .jombotron p {
+  margin-top: 15px;
+}
+
+.jombotron .containterr, .jombotron button {
+  margin-top: 30px;
+}
+
+.jombotron button:hover {
+  -webkit-box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff, 0 0 200px #ffffff;
+          box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff, 0 0 200px #ffffff;
+}
+
+.about {
+  min-height: 700px;
+  padding-top: 70px;
+}
+
+.about .about, .about h3 {
+  font-weight: 800;
+}
+
+.about .about, .about p {
+  font-weight: 400;
+}
+
+.about .about, .about h3, .about hr, .about p {
+  color: white;
+}
+
+.about .fotoku {
+  height: 250px;
+  width: 100px;
+  -webkit-filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.about .about, .about img:hover {
+  height: 405px;
+  width: 355px;
+}
+
+.about .about, .about h4 {
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.about .owner {
+  margin-top: -5px;
+}
+
+.portofolio {
+  min-height: 700px;
+  padding-top: 70px;
+}
+
+.portofolio .portofolio, .portofolio h3, .portofolio hr {
+  color: white;
+  font-weight: 800;
+}
+
+.contact {
+  min-height: 700px;
+  padding-top: 70px;
+}
+
+.contact .contact, .contact h3, .contact hr {
+  color: white;
+  font-weight: 800;
+}
+
+.contact #button:hover {
+  -webkit-box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff, 0 0 200px #ffffff;
+          box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff, 0 0 200px #ffffff;
+}
+
+.contact .contact, .contact label {
+  color: white;
+}
+
+.contact .form-label-pesan {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.footer {
+  margin-top: 10px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.footer p {
+  padding: 10px;
+}
+/*# sourceMappingURL=main.css.map */
